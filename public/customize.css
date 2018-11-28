@@ -1,0 +1,84 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('bgpic.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #474545;
+
+  opacity: 1;
+}
+
+.half-cover1 {
+  /* The image used */
+  background-image: url('car.jpg');
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #474545;
+  background-blend-mode: overlay;
+  opacity: 0.85;
+}
+
+.half-cover2 {
+  /* The image used */
+  background-image: url('http://s1.1zoom.me/b5661/407/Jaguar_2017_E-Pace_R-Dynamic_First_Edition_Red_545870_3840x2160.jpg');
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #474545;
+  background-blend-mode: overlay;
+  opacity: 0.85;
+}
+
+.half-cover3 {
+  /* The image used */
+  background-image: url('https://www.carpixel.net/w/e943548fc54e42bb63d00276f986f187/porsche-panamera-turbo-wallpaper-hd-63619.jpg');
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #474545;
+  background-blend-mode: overlay;
+  opacity: 0.85;
+}
+
+.centered {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.jumbotron {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+}
